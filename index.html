@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		 content="width=device-width, initial-scale=1, user-scalable=yes">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+ 
+<div class="container-fluid">
+ 
+	<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-7">
+				<h1>Journal Form</h1>
+
+				<div class="row">
+					<label for="comment" class="col-2 col-form-label">Payee/Comment</label>
+					<div class="col-10">
+						<input class="form-control" type="text" value="Artisanal kale" id="comment">
+					</div>
+				</div>
+				<div class="row">
+					<label for="date" class="col-2 col-form-label">Date</label>
+					<div class="col-10">
+						<input class="form-control" type="search" value="22/11/1990" id="date">
+					</div>
+				</div>
+
+        <div class="help-block"></div>
+				<div class="form-group" id="01">
+					<div class="col-lg-5">
+            <label for="comment01" class="col-2 col-form-label">Comment</label>
+            <input type="text" class="form-control" id="date01">
+					</div>
+					<div class="col-lg-5">
+            <div class="input-group">
+              <label for="value01" class="col-2 col-form-label">Value</label>
+              <input type="text" class="form-control" id="value01">
+            </div>
+					</div>
+					<div class="col-lg-1">
+            <button type="button" id="new" class="btn btn-success btn-lg">
+              +
+            </button>
+					</div>
+					<div class="col-lg-1">
+            <button type="button" id="delete" class="btn btn-danger btn-lg">
+              -
+            </button>
+					</div>
+        </div>
+
+			</div>
+			<div class="col-md-3"></div>
+	</div>
+  <div class="help-block"></div>
+	<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-7">
+      <button type="button" id="convert" class="btn btn-default btn-lg disabled">
+         Convert
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<a id="downloadAnchorElem" style="display:none"></a>
+<script type="text/javascript" src="js/main.js"></script> 
+</body>
+</html>
+     
